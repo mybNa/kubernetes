@@ -1,6 +1,8 @@
 # Basics of Kubernetes
 ## Link
 https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/
+#### cheatsheet
+https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 
 ## Kubernetes Pods
 Pods are the atomic unit on the Kubernetes platform. When we create a Deployment on Kubernetes, that Deployment creates Pods with containers inside them (as opposed to creating containers directly). Each Pod is tied to the Node where it is scheduled, and remains there until termination (according to restart policy) or deletion. In case of a node failure, identical pods are scheduled on other available Nodes in the cluster.

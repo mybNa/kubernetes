@@ -1,4 +1,4 @@
-
+# Basics of Kubernetes
 ## Link
 https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/
 
@@ -13,9 +13,9 @@ depending on the cluster. Each Node is managed by the Master. A Node can have mu
 automatically handles scheduling the pods across the Nodes in the cluster. The Master's automatic scheduling takes 
 into account the available resources on each Node.
 
-## Every Kubernetes Node runs at least:
-  Kubelet, a process responsible for communication between the Kubernetes Master and the Node; 
-  it manages the Pods and the containers running on a machine.
-  
-  A container runtime (like Docker, rkt) responsible for pulling the container image from a registry, 
-  unpacking the container, and running the application.
+  ### Every Kubernetes Node runs at least:
+  - Kubelet, a process responsible for communication between the Kubernetes Master and the Node; 
+    it manages the Pods and the containers running on a machine.
+
+  - A container runtime (like Docker, rkt) responsible for pulling the container image from a registry, 
+    unpacking the container, and running the application.

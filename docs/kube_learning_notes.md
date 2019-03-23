@@ -21,4 +21,4 @@ into account the available resources on each Node.
     unpacking the container, and running the application.
 
 ### Node overview
-![alt text](/docs/nodes_overview.png?raw=true "Nodes Overview")
+![alt text](/docs/node_overview.png?raw=true "Node Overview")

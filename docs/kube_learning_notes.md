@@ -19,3 +19,6 @@ into account the available resources on each Node.
 
   - A container runtime (like Docker, rkt) responsible for pulling the container image from a registry, 
     unpacking the container, and running the application.
+
+### Node overview
+![alt text][/nodes_overview.png]

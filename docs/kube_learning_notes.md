@@ -30,6 +30,6 @@ into account the available resources on each Node.
    _(Note: the describe command can be used to get detailed information about most of the kubernetes primitives: node, pods,    deployments.)_
  - kubectl logs - print the logs from a container in a pod
  - kubectl exec - execute a command on a container in a pod 
-    _We can execute commands directly on the container once the Pod is up and running. For this, we use the exec command and use the name of the Pod as a parameter._
+    _(We can execute commands directly on the container once the Pod is up and running. For this, we use the exec command and use the name of the Pod as a parameter.)_
     
  

@@ -22,3 +22,10 @@ into account the available resources on each Node.
 
 ### Node overview
 ![alt text](/docs/node_overview.png?raw=true "Node Overview")
+
+
+## Troubleshooting with kubectl
+ - kubectl get - list resources
+ - kubectl describe - show detailed information about a resource
+ - kubectl logs - print the logs from a container in a pod
+ - kubectl exec - execute a command on a container in a pod
